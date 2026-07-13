@@ -1,3 +1,70 @@
 // Tu archivo personalizado .scss
 $primary: #ff5733; // Cambias el color azul por naranja
 @import "bootstrap/bootstrap";
+
+.perfil{
+    border: 2px solid black;
+}
+
+border: grosor tipo color:
+
+border: 1px solid black;   /* Negro */
+border: 3px solid blue;    /* Azul */
+border: 2px dashed red;    /* Línea punteada */
+border: 4px double green;  /* Doble línea */
+
+.perfil{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.perfil,
+.experiencia,
+.proyectos{
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contenedor{
+    border: 3px solid black;
+    margin: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: #b57edc; /* o el color que prefieras */
+}
+
+contenedor{
+    display: flex;
+    min-height: 100vh;
+}
+
+.perfil,
+.experiencia,
+.proyectos{
+    min-height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+Y a cada columna:
+
+.perfil{
+    background: #b57edc;
+    flex: 1;
+}
+
+.experiencia{
+    background: #a9c3e6;
+    flex: 1;
+}
+
+.proyectos{
+    background: #f7dcb5;
+    flex: 1;
+}
