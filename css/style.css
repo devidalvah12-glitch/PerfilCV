@@ -1,0 +1,36 @@
+.perfil {
+  border-radius: 10px solid rgb(255, 0, 0);
+}
+
+body {
+  margin: 0;
+  background-color: #f1960d; /* o el color que prefieras */
+  border-radius: 10px solid black;
+}
+
+.contenedor {
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  gap: 10px;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+#profileInfo,
+#relatedInfo,
+#projectInfo {
+  flex: 1;
+  padding-left: 10px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

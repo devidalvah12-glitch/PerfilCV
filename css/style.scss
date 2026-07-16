@@ -1,26 +1,18 @@
- Tu archivo personalizado .scss
-
-
-
 .perfil{
     border-radius: 10px solid rgb(255, 0, 0);
 }
    
-
 body{
     margin: 0;
     background-color: #f1960d; /* o el color que prefieras */
     border-radius: 10px solid black;
 }
 
-contenedor{
+.contenedor{
     display: flex;
     min-height: 100vh;
     box-sizing: border-box;
 }
-
-
-
 
 html,
 body{
@@ -32,6 +24,7 @@ body{
     display: flex;
     gap: 10px;
     min-height: 100vh;
+    font-family: monospace;
 }
 
 #profileInfo,
